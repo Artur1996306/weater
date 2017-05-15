@@ -1,8 +1,8 @@
-<label for="city"><h1>Enter location</h1></label>
-<input type="text" id="city" [(ngModel)]="city">
-<button class="input-style" type="submit" (click)="getTemperature()">Find</button>
+<label for="city" class="text-style header">Enter location</label>
+<input class="input-style" type="text" id="city" [(ngModel)]="city" (keyup.enter)="getTemperature()">
+<span class="button-style fa fa-search color-white" (click)="getTemperature()"></span>
 
-<h3 *ngIf="serverWork">
+<span class="text-style" *ngIf="serverWork">
   Temperature is {{temp}} °C
-</h3>
+</span>
 

@@ -1,0 +1,40 @@
+$green-color: #37a000;
+
+.input-style {
+  width: 300px;
+  border: 2px solid gainsboro;
+  border-radius: 2px;
+  padding: 12px;
+  color: #494949;
+  font-size: 15px;
+  line-height: 15px;
+  margin-right: 0;
+}
+
+.input-style:focus {
+  border-color: $green-color;
+}
+
+.button-style {
+  border-radius: 2px;
+  border-width: 2px;
+  margin-left: -5px;
+  padding: 15px 20px;
+  background-color: $green-color;
+}
+
+.color-white {
+  color: white;
+}
+
+.text-style {
+  display: block;
+  color: $green-color;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.header {
+  color: black !important;
+  font-size: 45px !important;
+}

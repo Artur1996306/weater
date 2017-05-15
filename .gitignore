@@ -40,3 +40,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+.sass-cache/
+src/app/app.component.css
+src/app/app.component.css.map
